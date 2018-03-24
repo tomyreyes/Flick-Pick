@@ -6,6 +6,10 @@ Flick Pick was designed and created as a side project by myself and two other cl
 
 My main role within this project was to create the randomizer that chose a movie from genres and years selected by the user. Since the [The Movie Database's](https://www.themoviedb.org/?language=en) only provides users of their api access to one page which only includes 20 movies at a time I had to make two separate GET requests. One request was used to get a random page from their database, and the second request was to get a random movie from their API.  
 
+## Demo
+![ezgif com-optimize](https://user-images.githubusercontent.com/26396771/37868779-60c44b58-2f69-11e8-8793-7464ffb807e0.gif)
+
+
 ## This application was built using:
 * [React](https://reactjs.org/)
 * [The Movie Database API](https://www.themoviedb.org/?language=en)
