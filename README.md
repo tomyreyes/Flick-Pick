@@ -8,6 +8,7 @@ Flick Pick was created with Tomy Reyes and Devashish Shrestha over our shared lo
 + Randomly generating  movies depending on genre(s) and date(s) chosen
 + implementing ui components 
 + optimizing performance and responsiveness on mobile devices 
++ creating database models 
 
 ## Features
 + Search for any movie
