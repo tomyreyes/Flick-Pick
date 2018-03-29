@@ -1,20 +1,62 @@
-# Flick Pick
+# Flick Pick 
 
-Do you find yourself consistently spending significant periods of time trying to find a movie to watch? Well, this app was designed with you in mind. This app removes the periods of indecision in your life by picking a movie for you to watch based on a list you create within the app. As well, Flick Pick features a randomizer that will also randomize a movie from a specific genre for the users feeling bold, or for those unable to even create a list of movies (I know you are out there).
+The go-to app to end all struggles to find that one movie to watch on a Friday night. Fellow movie lovers, aren't we tired of finding ourselves in situations where no one can decide or no one wants to take responsibility for selecting a movie?
+Flick Pick was created with Tomy Reyes and Devashish Shrestha over our shared love for movies and also to provide a learning experience while building a React web app using Web APIs and Material-UI.
 
-Flick Pick was designed and created as a side project by myself and two other classmates Eugene Yu and Devashish Shresthra while attending a full time web development bootcamp. It was aimed at learning how to work with API's and React. 
+## My roles include the following:
++ structuring the project into modular components
++ Randomly generating  movies depending on genre(s) and date(s) chosen
++ implementing ui components 
++ optimizing performance and responsiveness on mobile devices 
 
-My main role within this project was to create the randomizer that chose a movie from genres and years selected by the user. Since the [The Movie Database's](https://www.themoviedb.org/?language=en) only provides users of their api access to one page which only includes 20 movies at a time I had to make two separate GET requests. One request was used to get a random page from their database, and the second request was to get a random movie from their API.  
+## Features
++ Search for any movie
++ View movie details including release date, rating and plot summary.
++ Add and remove movies to and from your Watchlist
++ Randomly select a movie from your Watchlist
++ Randomly select a movie based on a combination of genres and earliest release year
+
+## Upcoming additions
++ Clean up design - fix bugs
++ Database - PostgreSQL
+- User Data from Facebook Login
+- Facebook Data for Liked Movies
+- Saving Watchlist
+
++ Session Storage on Browser for Login
++ Redesign Layout
+- Material-UI? Semantic UI?
+
++ Additional Features
+- Movie Ratings from IMDB, Rotten Tomatoes
+- Watchable where? HBO, ABC or Netflix
+- Utelly API (https://market.mashape.com/utelly/utelly)
+
 
 ## Demo
-![ezgif com-optimize](https://user-images.githubusercontent.com/26396771/37868779-60c44b58-2f69-11e8-8793-7464ffb807e0.gif)
+### Desktop
+<kbd align="center">
+  <img src="https://github.com/eugeneyu90/Flick-Pick/blob/master/Flick-Pick-Demo1.gif">
+</kbd>
+<br>
+<kbd align="center">
+  <img src="https://github.com/eugeneyu90/Flick-Pick/blob/master/Flick-Pick-Demo2.gif">
+</kbd>
 
+### Mobile
+<kbd align="center">
+  <img src="https://github.com/eugeneyu90/Flick-Pick/blob/master/Flick-Pick-Mobile-Demo1.gif">
+</kbd>
+<br>
+<kbd align="center">
+  <img src="https://github.com/eugeneyu90/Flick-Pick/blob/master/Flick-Pick-Mobile-Demo2.gif">
+</kbd>
 
 ## This application was built using:
-* [React](https://reactjs.org/)
-* [The Movie Database API](https://www.themoviedb.org/?language=en)
-* [Axios](https://www.npmjs.com/package/axios)
-* [Material-UI](http://www.material-ui.com/#/)
+* [React] (https://reactjs.org/)
+* [Axios] (https://www.npmjs.com/package/axios)
+* [The MovieDB] (https://www.themoviedb.org/)
+* [Material-UI] (http://www.material-ui.com/)
 
 
 
