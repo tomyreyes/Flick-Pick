@@ -5,10 +5,9 @@ Flick Pick was created with Tomy Reyes and Devashish Shrestha over our shared lo
 
 ## My roles include the following:
 + structuring the project into modular components
-+ Randomly generating  movies depending on genre(s) and date(s) chosen
-+ implementing ui components 
++ implementing MovieDB's Web API for retrieving and randomizing movies based on genres and dates chosen by users
++ enhancing user interaction using components from Material-UI
 + optimizing performance and responsiveness on mobile devices 
-+ creating database models 
 
 ## Features
 + Search for any movie
